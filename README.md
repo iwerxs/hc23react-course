@@ -44,4 +44,33 @@ npm run build
 
 is the command needed to build a production of the application.
 
-#### When initiating the App the JavaScript is injected into the index.html file prior to loading the DOM 
+#### When initiating the App the JavaScript is injected into the index.html file prior to loading the DOM
+
+### Components : Custom Design HTML element
+
+the syntax is using the angle brackets with the name of the component
+
+## STATE
+
+a process by which everything is monitored, and then updated when variables change.
+Therefore any **change** in the State of the variable, get re-rendered on the UI in the DOM
+
+<code> useState()</code>
+
+is a Method (commonly known as a 'hook')
+
+this returns an Array [] with two parameter, a variable and a function
+
+Batching : React bundles 'work' before executing
+
+to avoid this use a **callback** method  <code>(()=>{})</code>
+
+the callback needs to finish processing and receive a value **Before** doing the next execution.
+
+## React Control
+
+**React controls the UI**
+
+React does not control the JavaScript, the database etc
+
+React provides a mechanism that the user / developer **must** use.
