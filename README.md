@@ -44,4 +44,4 @@ npm run build
 
 is the command needed to build a production of the application.
 
-### When initiating the App the JavaScript is injected into the index.html file prior to loading the DOM 
+#### When initiating the App the JavaScript is injected into the index.html file prior to loading the DOM 
